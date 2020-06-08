@@ -1,4 +1,4 @@
-TDD practice assignment
+amazinkart assignment
 =====================================
 A step-by-step introduction.
 
