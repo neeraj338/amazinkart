@@ -1,0 +1,16 @@
+spring:
+  profiles:
+    active: "test"
+
+logging:
+  level:
+    root: warn
+    com:
+      amazinkart: debug
+    okhttp3: info
+
+api:
+  product-details:
+    base-url: "https://api.jsonbin.io"
+  exchange-rates:
+    base-url: "https://api.exchangeratesapi.io"

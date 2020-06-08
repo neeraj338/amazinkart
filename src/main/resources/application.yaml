@@ -1,0 +1,21 @@
+spring:
+  profiles:
+    active: "dev"
+  main:
+    allow-bean-definition-overriding: true
+
+logging:
+  level:
+    root: warn
+    com:
+      amazinkart: debug
+    okhttp3: info
+
+json:
+  filepath: build/output.json
+
+api:
+  product-details:
+    base-url: "https://api.jsonbin.io"
+  exchange-rates:
+    base-url: "https://api.exchangeratesapi.io"
